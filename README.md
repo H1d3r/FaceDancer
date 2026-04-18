@@ -35,8 +35,10 @@ FaceDancer contains numerous methods for performing DLL hijacking. These DLLs ta
 **Why do you need them?** Without evasion techniques in your input DLL, security software will likely detect and block your payload immediately. It is critical that your input DLL contains all necessary evasion techniques appropriate for your target environment before using FaceDancer.
 
 **For more information** about the techniques and how they are discovered, please see:
-- **Blog Post**: [DLL Hijacking: A New Spin on Proxying Your Shellcode](https://www.blackhillsinfosec.com/dll-hijacking-a-new-spin-on-proxying-your-shellcode/)
+- **Blog Post Part 1**: [DLL Hijacking: A New Spin on Proxying Your Shellcode](https://www.blackhillsinfosec.com/dll-hijacking-a-new-spin-on-proxying-your-shellcode/)
+- **Blog Post Part 2**: [Signed, Trusted, and Abused: Proxy Execution via WebView2](https://www.blackhillsinfosec.com/proxy-execution-via-webview2/)
 - **Video Tutorial**: [FaceDancer Demo and Walkthrough](https://www.youtube.com/watch?v=1OzeSv9mUOk)
+- **Video Tutorial**: [Proxy Execution via WebView2](https://www.youtube.com/watch?v=3GeQfShBxbY)
 
 
 
